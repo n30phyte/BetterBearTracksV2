@@ -7,9 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using ElectronNET.API;
 
-namespace BetterBearTracksv2
+namespace BetterBearTracks
 {
     public class Program
     {
@@ -20,7 +19,6 @@ namespace BetterBearTracksv2
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            .UseElectron(args)
                 .UseStartup<Startup>();
     }
 }

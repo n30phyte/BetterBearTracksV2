@@ -1,6 +1,6 @@
 using System;
 
-namespace BetterBearTracksv2.Models
+namespace BetterBearTracks.Models
 {
     public class ErrorViewModel
     {
